@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: darkcyan;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  background: #fff;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (min-width: 600px) {
+  .card-img-top {
+    height: 50%;
+  }
+}
+
+// @media only screen and (min-width: 768px) {
+//   .card {
+//     height: 450px;
+//   }
+// }
+
+// @media only screen and (min-width: 768px) {
+//   .card {
+//     height: auto;
+//   }
+// }
